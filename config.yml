@@ -1,0 +1,40 @@
+timeout: 5
+blacklist:
+- Notch
+timers:
+  1:
+    enabled: true
+    time: 1
+    commands:
+    - say hello <player>
+    - give <player> diamond 1
+  2:
+    time: 20
+    enabled: false
+    commands:
+    - say hello <player>
+    - give <player> diamond 2
+  3:
+    time: 40
+    enabled: true
+    commands:
+    - say hello <player>
+    - give <player> diamond 3
+  4:
+    time: 60
+    enabled: true
+    commands:
+    - say hello <player>
+    - give <player> diamond 4
+  5:
+    time: 70
+    enabled: true
+    commands:
+    - say hello <player>
+    - give <player> diamond 5
+  6:
+    time: 80
+    enabled: true
+    commands:
+    - say hello <player>
+    - give <player> diamond 6

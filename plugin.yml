@@ -1,0 +1,18 @@
+main: space.ioexceptional.timerewarded.Main
+name: TimeRewarded
+version: 1.0
+author: IOExceptional
+description: A plugin to run commands when players meet certain playtime thresholds
+commands:
+   playtime:
+      permission: timerewarded.playtime
+      description: Displays your play time
+      permission-message: You not have have permission to use this command.
+      usage: /playtime
+permissions:
+   timerewarded.playtime:
+      default: true
+      description: Allows you to run the command "/playtime"
+   timerewarded.playtime.others:
+      default: false
+      description: Allows you to run the command "/playtime <playername>"
